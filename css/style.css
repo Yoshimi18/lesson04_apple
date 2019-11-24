@@ -1,1 +1,98 @@
 @charset "UTF-8";
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    font-family: "SF Display";
+    line-height: 1.1;
+}
+
+/*  .section-wrap
+-------------------------------------------*/
+.section-wrap{
+    background-color: #111111;
+    padding: 24px;
+}
+
+/*  .hero-area
+-------------------------------------------*/
+.hero-area{
+    display: flex;
+    height: 673;
+    background-color: #000000;
+    margin-bottom: 24px;
+}
+
+.hero-l{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-r{
+    width: 50%;
+}
+
+/*  .sales
+--------------------------------*/
+.sales{
+    text-align: center;
+}
+.sales h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.sales h3{
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+/* ここは下のsalesで使うh4 */
+.sales h4{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.sales p{
+    font-family: "SF Text";
+    font-size: 13px;
+    margin-bottom: 22px;
+}
+.sales button{
+    width: 51px;
+    height: 29px;
+    border-radius: 51px;
+    border: none;
+    background-color: #2997FF;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+.sales ul{
+    display: flex;
+    justify-content: space-between;
+    width: 197px;
+    margin: 0 auto;
+}
+.sales li{
+    font-family: "SF Text";
+    font-size: 13px;
+    color: #2997FF;
+}
+
+/*  .main01-area
+--------------------------------*/
+.main01-area{
+    height: 533px;
+    background: url(../img/main01.png)no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main01-area h2{
+    font-size: 58px;
+}
